@@ -293,6 +293,16 @@ def show_more_data(df, city):
 
 
 def show_single_data(df, start_number, end_number, city):
+    """
+    Show single individual trip data.
+
+    Args:
+        df - Pandas DataFrame containing city data filtered by month and day
+        start_number - starting sequence number
+        end_number - final sequence number
+        city - name of the city to analyze
+    """
+
     range_data = [*range(start_number, end_number, 1)]
     np.array([format_single_data(df, i, city) for i in range_data])
 
