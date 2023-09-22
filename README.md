@@ -21,14 +21,14 @@ Install Pandas: pip install --upgrade pandas
 
 # Usage
 
-1. Start project: run the bikeshare.py file.
-2. Input city name (only input Chicago, New York City, or Washington).
-3. Input filter condition (only input month, day, both, none).
-4. Input month if selected (only input January, February, March, April, May, June or All).
-5. Input day if selected (only input from 0 to 7).
-6. Show information on the popular time of travel, station and trip, trip duration, and user info.
-7. View individual trips if needed.
-8. Restart the project if needed.
+a. Start project: run the bikeshare.py file.
+b. Input city name (only input Chicago, New York City, or Washington).
+c. Input filter condition (only input month, day, both, none).
+d. Input month if selected (only input January, February, March, April, May, June or All).
+e. Input day if selected (only input from 0 to 7).
+f. Show information on the popular time of travel, station and trip, trip duration, and user info.
+g. View individual trips if needed.
+h. Restart the project if needed.
 
 ---
 
