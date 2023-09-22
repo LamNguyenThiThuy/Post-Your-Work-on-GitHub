@@ -1,4 +1,4 @@
-import calendar
+import calendar as cr
 import numpy as np
 import os
 import pandas as pd
@@ -103,7 +103,7 @@ def check_day():
     elif day == 7:
         day = 'all'
     else:
-        day = calendar.day_name[day]
+        day = cr.day_name[day]
     return day.lower()
 
 
@@ -157,7 +157,7 @@ def times_of_travel(df):
     print('\nPopular times of travel: ')
 
     # show the most common month.
-    month_of_travel = calendar.month_name[df['month'].mode()[0]]
+    month_of_travel = cr.month_name[df['month'].mode()[0]]
     print('Most Common Month: \n', month_of_travel)
 
     # show the most common day of week.
